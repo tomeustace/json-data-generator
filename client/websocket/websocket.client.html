@@ -1,0 +1,24 @@
+<html>
+
+<body>
+<p>Simple web socket client that consumes generated json data.  Run "node websocket.server.js", refresh page and hit f12 to see incoming data in console.
+
+<script>
+var CUSTOM_PROTOCOL = 'custom-protocol';
+var socket = new WebSocket("ws://localhost:8080/", "custom-protocol");
+socket.onopen = function (event) {
+  socket.send("Client connected!"); 
+};
+
+socket.onclose = function (event) {
+  console.log("Connection closed");
+}
+
+socket.onmessage = function (event) {
+  if(event.currentTarget.protocol === CUSTOM_PROTOCOL) {
+      console.log(event.data);
+  }
+}
+</script>
+</body>
+</html>
