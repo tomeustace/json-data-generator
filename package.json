@@ -1,0 +1,19 @@
+{
+  "name": "json-data-generator",
+  "version": "0.0.1",
+  "description": "A simple utility to generate json data.  A basic REST and Websocket client are provided.",
+  "main": "data.generator.js",
+  "private": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tom Eustace",
+  "license": "MIT",
+  "devDependencies": {
+    "body-parser": "^1.14.2",
+    "cors": "^2.7.1",
+    "dreamjs": "^0.1.5",
+    "express": "^4.13.4",
+    "websocket": "^1.0.23"
+  }
+}
