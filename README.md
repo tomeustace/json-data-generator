@@ -10,6 +10,7 @@ automate testing or pump data into dashboard applications.
 ## Install
 
 git clone https://github.com/tomeustace/json-data-generator.git
+
 npm install
 
 ## Entities
