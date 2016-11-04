@@ -1,0 +1,8 @@
+{
+  "name": "order",
+  "schema": {
+    "Order-Id": "id",
+    "Customer-Id": "id",
+	"Order-Date": "date"
+  }
+}

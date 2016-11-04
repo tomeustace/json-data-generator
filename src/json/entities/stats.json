@@ -1,0 +1,9 @@
+{
+  "name": "app-stats",
+  "schema": {
+    "CPU": "number",
+    "Memory": "number",
+    "Disk": "number",
+    "Requests per Second": "number"
+  }
+}

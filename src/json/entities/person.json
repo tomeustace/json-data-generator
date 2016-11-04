@@ -1,0 +1,8 @@
+{
+  "name": "person",
+  "schema": {
+    "Name": "name",
+    "Customer-Id": "id",
+	"Visited-URL" : "url"
+  }
+}
