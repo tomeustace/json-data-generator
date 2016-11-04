@@ -1,0 +1,8 @@
+{
+    "name": "entity-template",
+    "schema": {
+        "timestamp": "timestamp",
+		"data": "data",
+		"entity-name": "entity.name"
+    }
+}
