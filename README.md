@@ -2,10 +2,17 @@
 
 This is a simple utility that generates random JSON data according to user defined schemas.
 
-It uses dreamjs.  A REST and WebSocket client are provided to help get started.  It could prove useful for mocking data feeds to 
+It uses [dreamjs](https://github.com/adleroliveira/dreamjs).  
+
+A REST and WebSocket client are provided to help get started.  It could prove useful for mocking data feeds to 
 automate testing or pump data into dashboard applications.
 
-## Usage
+## Install
+
+git clone https://github.com/tomeustace/json-data-generator.git
+npm install
+
+## Entities
 
 There are three sample entities provided by default person, order and stats.  Users can create their own entities by placing their entity json files
  in ./src/json/entities directory.
